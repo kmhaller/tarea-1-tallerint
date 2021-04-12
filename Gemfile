@@ -40,9 +40,7 @@ gem 'http'
 
 gem 'json'
 
-group :development, :test do # <<<< :development, not devlopment
-  gem 'sqlite3'
-end
+gem 'pg'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
